@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/info.css" />
+
+<title>Snail Scale</title>
+</head>
+<body>
+    <h1> DISCOVER YOUR MEAL </h1>
+<div class="startb">
+    <input type="button" class="start" value="Start" onclick="click_start()"></div>
+
+<div id="container">
+   
+
+       <!--<p>  Click to start </p>-->
+        
+        
+       <div> <p> Item Info </p>
+
+     <select name="confirm" class="opti" id="confirm" >
+       
+       <option id="option1" value="1"></option>
+
+       <option id="option2" value="2"></option>
+
+       <option id="option3" value="3"></option>
+        </select>
+     <br><br>
+              <input class="block" type="submit" value="Confirm Item" onclick="click_confirm()">
+
+</div>
+
+    <div>
+
+        
+        <p>  Choose Operation </p>
+        <select name="operation" class="opti" id="operation" >
+          
+          <option value="1">Add</option>
+
+          <option value="2">Remove</option>
+
+          <option value="3">Clear</option>
+
+        </select>
+        <br><br>
+        <input type="button" class="block" value="Confirm Operation" onclick="click_operation()"><br><br></div>
+           <div> <p>  Meal Info </p><br><br>
+            <input type="button" class="block" value="Display Meal" onclick="clicked()">
+    </div>
+    
+    
+                   
+
+</div>
+<div id="container1">
+<div>
+    
+    <table>
+        <caption> Nutrition Facts </caption>
+        <tr>
+            <th> calories </th>
+            <th> <textarea readonly rows="1" id="calories">  </textarea> </th>
+            </tr>
+        <br>
+        <tr>
+            <th> protein </th>
+            <th> <textarea readonly rows="1" id="protein"> </textarea> </th>
+            </tr>
+        <br>
+        <tr>
+            <th> carbs </th>
+            <th> <textarea readonly rows="1" id="carbs"> </textarea> </th>
+            </tr>
+        <br>
+        <tr>
+            <th> fats </th>
+            <th> <textarea readonly rows="1" id="fats"> </textarea> </th>
+            </tr>
+        <tr>
+            <th> cholestrol </th>
+            <th> <textarea readonly rows="1" id="cholestrol"> </textarea> </th>
+            </tr>
+        <tr>
+            <th> fiber </th>
+            <th> <textarea readonly rows="1" id="fiber"> </textarea> </th>
+            </tr>
+        </table>
+
+</div>
+</div>
+
+<script type="text/javascript" src="rest.js"></script>
+</body>
+    </html>
+
+
+
+
